@@ -1,0 +1,15 @@
+public class Challenge2 {
+    void showSalary() {
+        double salary;
+        double tax;
+
+        salary = 10000;
+        System.out.println("Your gross salary is :" + salary);
+        tax = 30.0;
+        salary = salary *(100-tax)/100;
+        System.out.println("Your net salary is:"+salary);
+    }
+    public static void main(String[]args){
+        (new Challenge2()).showSalary();
+    }
+}
