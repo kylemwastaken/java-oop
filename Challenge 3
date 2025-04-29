@@ -1,0 +1,15 @@
+public class Challenge3 {
+    void showAge() {
+        int Age;
+        Age=19;
+        if (Age<18) {
+            System.out.println("You are a child");
+        }
+        else {
+            System.out.println("You are an adult");
+        }
+    }
+    public static void main(String[]args){
+        (new Challenge3()).showAge();
+    }
+}
