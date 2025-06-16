@@ -1,0 +1,10 @@
+public class Arraychallenge {
+    public static void main (String[]args){
+        String[] fruits= {"apple","lemon","orange"};
+        for (String fruit : fruits){
+        if(fruit.startsWith("l")) {
+            System.out.println(fruit);
+        }
+       }
+    }
+}
